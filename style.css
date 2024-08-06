@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #212529;
+    background: url('pexels-sanlad-12323071.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+/* .video {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-100%, -100%);
+    background-size: cover;
+} */
+
+.container {
+    background-color: #adb5bd;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+    font-size: 1.10rem;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,input,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+form input {
+    border: 1px solid #827b71;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    height: 2rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 6rem;
+    border: 1px solid #827b71;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.dropdown select {
+    background-color: #adb5bd;
+}    
+
+
+.amount input {
+    background-color: #adb5bd;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    font-size: 1.15rem;
+}
+
+form button {
+    height: 3rem;
+    background-color: #1b4332;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}    
+
+form button:hover {
+    filter: brightness(1.80) contrast(1.90);
+}    
+
+
+.money-img {
+    width: 16%;
+    height: 6%;
+    justify-content: center;
+    margin-left: 42%;
+    margin-bottom: 5%;
+
+}
+.money-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+    filter: brightness(1.1) contrast(1.05);
+    border-radius: 0.1rem;
+    opacity: 0.9;
+}
+
+/* .error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+}
+
+
+input:invalid {
+    border-color: red;
+}
+
+input:invalid + .error-message {
+    display: block;
+} */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    <!-- <video class="video" autoplay loop src ="120177-720504798.mp4"></video> -->
+     <!-- <img class="background-img" src="pexels-sanlad-12323071.jpg" alt=""> -->
+</head>
+<body>
+    <div class="container"> 
+        <img src="exchange.png" class="money-img" alt="">
+        
+          <!-- <i class="fa-brands fa-gg-circle" id="image"></i> -->
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter amount</p>
+                <input type="text" value="1" title="">
+                <!-- <span id="emailError" class="error-message">Amount must not be empty</span> -->
+            </div>
+             <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from"></select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to"></select>
+                    </div>  
+                </div>
+             </div>
+             <div class="msg">Getting exchange rate....</div>
+             <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="countryCode.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
