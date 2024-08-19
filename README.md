@@ -8,3 +8,5 @@ Key Features:
 3. Simple and Responsive Design: Features an easy-to-navigate interface that ensures a smooth user experience.
 4. Customizable Settings: Adjust settings to personalize the converter based on user preferences.
 5. API Integration: Utilizes popular financial APIs for reliable and accurate exchange rates.
+# Output
+![Currency Converter Screenshot ](https://github.com/user-attachments/assets/bf19de0b-7ab9-475e-a68b-18123b2d89f7)
